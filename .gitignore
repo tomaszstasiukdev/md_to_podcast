@@ -1,0 +1,32 @@
+# Klucze i dane wrażliwe – nigdy nie commituj
+.env
+.env.local
+*.pem
+
+# Środowisko wirtualne
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Duże pliki wyjściowe (opcjonalnie – usuń te linie, jeśli chcesz udostępniać też wygenerowane MP3)
+output/audio/
+output/merged/
+!output/audio/.gitkeep
+!output/merged/.gitkeep
